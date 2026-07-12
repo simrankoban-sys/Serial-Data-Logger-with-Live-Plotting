@@ -1,0 +1,30 @@
+# --- Secrets (never commit these) ---
+secrets.h
+config_local.py
+*.env
+
+# --- Arduino / PlatformIO ---
+build/
+.pio/
+*.hex
+*.bin
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# --- Data / logs generated at runtime ---
+data_log.csv
+*.log
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+sketch_oct7a.ino.bak
